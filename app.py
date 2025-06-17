@@ -8,6 +8,9 @@ Original file is located at
 """
 
 # app.py
+import os
+os.system("pip install shap")
+
 import streamlit as st
 import pandas as pd
 import numpy as np
